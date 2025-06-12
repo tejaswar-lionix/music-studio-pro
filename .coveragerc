@@ -1,0 +1,5 @@
+[run]
+source = apps
+omit = */tests/*
+[report]
+show_missing = True

@@ -1,0 +1,10 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "music-studio-pro"
+version = "1.0.0"
+description = "Music Studio Pro"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "Proprietary"}
