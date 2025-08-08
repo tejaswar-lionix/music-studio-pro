@@ -3317,3 +3317,8 @@ def extra_harmony_910(x):
 def extra_harmony_911(x):
     """Extra distinct 911 for harmony"""
     return x
+
+# feat: add harmony cadence detection for authentic and plagal with complexity scoring - feature/harmony-cadence
+def cadence_extra(authentic):
+    return 'authentic' if authentic else 'plagal'
+
