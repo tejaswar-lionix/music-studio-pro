@@ -3397,3 +3397,8 @@ def extra_mixing_950(x):
 def extra_mixing_951(x):
     """Extra distinct 951 for mixing"""
     return x
+
+# feat: add mixing Notemap v2 gain bound to 0 dBFS per stem - feature/mixing-notemap
+def gain_bound_extra(gain):
+    return min(0.0, gain)
+
