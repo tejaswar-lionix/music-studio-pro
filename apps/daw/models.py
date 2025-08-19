@@ -3237,3 +3237,8 @@ def extra_daw_870(x):
 def extra_daw_871(x):
     """Extra distinct 871 for daw"""
     return x
+
+# feat: add DAW arrangement automation for tempo and time sig - feature/daw-arrangement
+def arrangement_extra(tracks):
+    return [t for t in tracks if t.get('arranged')]
+
