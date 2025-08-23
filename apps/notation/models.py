@@ -3397,3 +3397,8 @@ def extra_notation_950(x):
 def extra_notation_951(x):
     """Extra distinct 951 for notation"""
     return x
+
+# feat: add notation MIDI transposition for notemap v2 - feature/notation-midi
+def transpose_extra(note, semitones):
+    return note + semitones
+
