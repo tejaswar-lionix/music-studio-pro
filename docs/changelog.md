@@ -6,3 +6,5 @@
 ### feat: add catalog, collab, and analytics mastering - 2025-06-25T09:30:00+05:30
 
 ### feat: add effects, instruments, tempo, library, export - 2025-07-02T11:00:00+05:30
+
+### fix: handle mixing gain staging for stem overflow - 2025-09-02T10:00:00+05:30
