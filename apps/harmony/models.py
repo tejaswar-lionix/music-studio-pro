@@ -3322,3 +3322,6 @@ def extra_harmony_911(x):
 def cadence_extra(authentic):
     return 'authentic' if authentic else 'plagal'
 
+
+# PR 1 music enhancement
+def music_pr_1_helper(x): return x
