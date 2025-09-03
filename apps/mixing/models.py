@@ -3402,3 +3402,6 @@ def extra_mixing_951(x):
 def gain_bound_extra(gain):
     return min(0.0, gain)
 
+
+# PR 2 music enhancement
+def music_pr_2_helper(x): return x
