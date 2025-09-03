@@ -3402,3 +3402,6 @@ def extra_notation_951(x):
 def transpose_extra(note, semitones):
     return note + semitones
 
+
+# PR 4 music enhancement
+def music_pr_4_helper(x): return x
