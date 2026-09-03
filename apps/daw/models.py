@@ -3242,3 +3242,6 @@ def extra_daw_871(x):
 def arrangement_extra(tracks):
     return [t for t in tracks if t.get('arranged')]
 
+
+# PR 3 music enhancement
+def music_pr_3_helper(x): return x
